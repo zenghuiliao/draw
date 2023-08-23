@@ -1,202 +1,202 @@
-<mxfile host="app.diagrams.net" modified="2023-07-18T13:07:12.216Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="o_KUA5cjzcyu_VscUH_Q" version="21.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-23T09:58:26.018Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="pUDPJvdtAmrLuaAz-0HU" version="21.6.6" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="基本关系">
-    <mxGraphModel dx="3163" dy="2010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2958" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="kiL3bQzwa457KuXeecQb-0" value="struct device_driver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kiL3bQzwa457KuXeecQb-0" value="struct device_driver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="790" y="520" width="310" height="260" as="geometry">
             <mxRectangle x="280" y="610" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-1" value="const char&#x9;&#x9;*name;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-0">
+        <mxCell id="kiL3bQzwa457KuXeecQb-1" value="const char&#x9;&#x9;*name;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-0" vertex="1">
           <mxGeometry y="26" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-3" value="struct bus_type&#x9;&#x9;*bus;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-0">
+        <mxCell id="kiL3bQzwa457KuXeecQb-3" value="struct bus_type&#x9;&#x9;*bus;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-0" vertex="1">
           <mxGeometry y="52" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-61" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-0">
+        <mxCell id="kiL3bQzwa457KuXeecQb-61" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-0" vertex="1">
           <mxGeometry y="78" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-60" value="const struct of_device_id&#x9;*of_match_table;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-0">
+        <mxCell id="kiL3bQzwa457KuXeecQb-60" value="const struct of_device_id&#x9;*of_match_table;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-0" vertex="1">
           <mxGeometry y="104" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-59" value="const struct acpi_device_id&#x9;*acpi_match_table;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-0">
+        <mxCell id="kiL3bQzwa457KuXeecQb-59" value="const struct acpi_device_id&#x9;*acpi_match_table;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-0" vertex="1">
           <mxGeometry y="130" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-58" value="int (*probe) (struct device *dev);" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-0">
+        <mxCell id="kiL3bQzwa457KuXeecQb-58" value="int (*probe) (struct device *dev);" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-0" vertex="1">
           <mxGeometry y="156" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-64" value="const struct attribute_group **groups;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-0">
+        <mxCell id="kiL3bQzwa457KuXeecQb-64" value="const struct attribute_group **groups;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-0" vertex="1">
           <mxGeometry y="182" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-63" value="const struct attribute_group **dev_groups;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-0">
+        <mxCell id="kiL3bQzwa457KuXeecQb-63" value="const struct attribute_group **dev_groups;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-0" vertex="1">
           <mxGeometry y="208" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-62" value="struct driver_private *p;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-0">
+        <mxCell id="kiL3bQzwa457KuXeecQb-62" value="struct driver_private *p;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-0" vertex="1">
           <mxGeometry y="234" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-23" value="struct bus_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneLine=1;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kiL3bQzwa457KuXeecQb-23" value="struct bus_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneLine=1;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-580" y="80" width="330" height="286" as="geometry">
             <mxRectangle x="-230" y="80" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-28" value="const char&#x9;&#x9;*name;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-23">
+        <mxCell id="kiL3bQzwa457KuXeecQb-28" value="const char&#x9;&#x9;*name;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-23" vertex="1">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-29" value="const char&#x9;&#x9;*dev_name;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-23">
+        <mxCell id="kiL3bQzwa457KuXeecQb-29" value="const char&#x9;&#x9;*dev_name;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-23" vertex="1">
           <mxGeometry y="52" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-35" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-23">
+        <mxCell id="kiL3bQzwa457KuXeecQb-35" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-23" vertex="1">
           <mxGeometry y="78" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-33" value="const struct attribute_group **bus_groups;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-23">
+        <mxCell id="kiL3bQzwa457KuXeecQb-33" value="const struct attribute_group **bus_groups;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-23" vertex="1">
           <mxGeometry y="104" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-32" value="const struct attribute_group **dev_groups;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-23">
+        <mxCell id="kiL3bQzwa457KuXeecQb-32" value="const struct attribute_group **dev_groups;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-23" vertex="1">
           <mxGeometry y="130" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-31" value="const struct attribute_group **drv_groups;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-23">
+        <mxCell id="kiL3bQzwa457KuXeecQb-31" value="const struct attribute_group **drv_groups;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-23" vertex="1">
           <mxGeometry y="156" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-30" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-23">
+        <mxCell id="kiL3bQzwa457KuXeecQb-30" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-23" vertex="1">
           <mxGeometry y="182" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-37" value="int (*match)(struct device *dev, struct device_driver *drv);" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-23">
+        <mxCell id="kiL3bQzwa457KuXeecQb-37" value="int (*match)(struct device *dev, struct device_driver *drv);" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-23" vertex="1">
           <mxGeometry y="208" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-36" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-23">
+        <mxCell id="kiL3bQzwa457KuXeecQb-36" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-23" vertex="1">
           <mxGeometry y="234" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-49" value="struct subsys_private *p;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-23">
+        <mxCell id="kiL3bQzwa457KuXeecQb-49" value="struct subsys_private *p;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-23" vertex="1">
           <mxGeometry y="260" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-38" value="struct subsys_private" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneLine=1;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kiL3bQzwa457KuXeecQb-38" value="struct subsys_private" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;swimlaneLine=1;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-580" y="400" width="330" height="234" as="geometry">
             <mxRectangle x="240" y="100" width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-39" value="struct kset subsys; //代表bus下的目录" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-38">
+        <mxCell id="kiL3bQzwa457KuXeecQb-39" value="struct kset subsys; //代表bus下的目录" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-38" vertex="1">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-40" value="struct kset *devices_kset; //指向xbus下的devices目录" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-38">
+        <mxCell id="kiL3bQzwa457KuXeecQb-40" value="struct kset *devices_kset; //指向xbus下的devices目录" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-38" vertex="1">
           <mxGeometry y="52" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-41" value="struct kset *drivers_kset; //指向xbus下的drivers目录" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-38">
+        <mxCell id="kiL3bQzwa457KuXeecQb-41" value="struct kset *drivers_kset; //指向xbus下的drivers目录" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-38" vertex="1">
           <mxGeometry y="78" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-42" value="struct klist klist_devices; //设备链表头" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-38">
+        <mxCell id="kiL3bQzwa457KuXeecQb-42" value="struct klist klist_devices; //设备链表头" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-38" vertex="1">
           <mxGeometry y="104" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-43" value="struct klist klist_drivers; //驱动链表头" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-38">
+        <mxCell id="kiL3bQzwa457KuXeecQb-43" value="struct klist klist_drivers; //驱动链表头" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-38" vertex="1">
           <mxGeometry y="130" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-44" value="struct bus_type *bus;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-38">
+        <mxCell id="kiL3bQzwa457KuXeecQb-44" value="struct bus_type *bus;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-38" vertex="1">
           <mxGeometry y="156" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-45" value="struct class *class;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-38">
+        <mxCell id="kiL3bQzwa457KuXeecQb-45" value="struct class *class;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-38" vertex="1">
           <mxGeometry y="182" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-48" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-38">
+        <mxCell id="kiL3bQzwa457KuXeecQb-48" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-38" vertex="1">
           <mxGeometry y="208" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-49" target="kiL3bQzwa457KuXeecQb-38">
+        <mxCell id="kiL3bQzwa457KuXeecQb-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#0050ef;strokeColor=#001DBC;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-49" target="kiL3bQzwa457KuXeecQb-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-51" value="struct driver_private" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kiL3bQzwa457KuXeecQb-51" value="struct driver_private" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="790" y="840" width="310" height="156" as="geometry">
             <mxRectangle x="280" y="610" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-52" value="struct kobject kobj;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-51">
+        <mxCell id="kiL3bQzwa457KuXeecQb-52" value="struct kobject kobj;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-51" vertex="1">
           <mxGeometry y="26" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-54" value="struct klist klist_devices;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-51">
+        <mxCell id="kiL3bQzwa457KuXeecQb-54" value="struct klist klist_devices;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-51" vertex="1">
           <mxGeometry y="52" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-57" value="struct klist_node knode_bus;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-51">
+        <mxCell id="kiL3bQzwa457KuXeecQb-57" value="struct klist_node knode_bus;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-51" vertex="1">
           <mxGeometry y="78" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-56" value="struct module_kobject *mkobj;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-51">
+        <mxCell id="kiL3bQzwa457KuXeecQb-56" value="struct module_kobject *mkobj;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-51" vertex="1">
           <mxGeometry y="104" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-55" value="struct device_driver *driver;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-51">
+        <mxCell id="kiL3bQzwa457KuXeecQb-55" value="struct device_driver *driver;" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-51" vertex="1">
           <mxGeometry y="130" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-62" target="kiL3bQzwa457KuXeecQb-51">
+        <mxCell id="kiL3bQzwa457KuXeecQb-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-62" target="kiL3bQzwa457KuXeecQb-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-66" value="struct device" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kiL3bQzwa457KuXeecQb-66" value="struct device" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="790" y="-230" width="310" height="338" as="geometry">
             <mxRectangle x="280" y="610" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-67" value="struct kobject kobj;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-66">
+        <mxCell id="kiL3bQzwa457KuXeecQb-67" value="struct kobject kobj;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-66" vertex="1">
           <mxGeometry y="26" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-69" value="struct device&#x9;&#x9;*parent;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-66">
+        <mxCell id="kiL3bQzwa457KuXeecQb-69" value="struct device&#x9;&#x9;*parent;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-66" vertex="1">
           <mxGeometry y="52" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-70" value="struct device_private&#x9;*p;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-66">
+        <mxCell id="kiL3bQzwa457KuXeecQb-70" value="struct device_private&#x9;*p;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-66" vertex="1">
           <mxGeometry y="78" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-71" value="const char&#x9;&#x9;*init_name;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-66">
+        <mxCell id="kiL3bQzwa457KuXeecQb-71" value="const char&#x9;&#x9;*init_name;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-66" vertex="1">
           <mxGeometry y="104" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-72" value="const struct device_type *type;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-66">
+        <mxCell id="kiL3bQzwa457KuXeecQb-72" value="const struct device_type *type;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-66" vertex="1">
           <mxGeometry y="130" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-73" value="struct bus_type&#x9;*bus;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-66">
+        <mxCell id="kiL3bQzwa457KuXeecQb-73" value="struct bus_type&#x9;*bus;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-66" vertex="1">
           <mxGeometry y="156" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-74" value="struct device_driver *driver;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-66">
+        <mxCell id="kiL3bQzwa457KuXeecQb-74" value="struct device_driver *driver;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-66" vertex="1">
           <mxGeometry y="182" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-75" value="void&#x9;&#x9;*platform_data;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-66">
+        <mxCell id="kiL3bQzwa457KuXeecQb-75" value="void&#x9;&#x9;*platform_data;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-66" vertex="1">
           <mxGeometry y="208" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-76" value="void&#x9;&#x9;*driver_data;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-66">
+        <mxCell id="kiL3bQzwa457KuXeecQb-76" value="void&#x9;&#x9;*driver_data;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-66" vertex="1">
           <mxGeometry y="234" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-92" value="struct device_node&#x9;*of_node;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-66">
+        <mxCell id="kiL3bQzwa457KuXeecQb-92" value="struct device_node&#x9;*of_node;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-66" vertex="1">
           <mxGeometry y="260" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-91" value="struct class&#x9;&#x9;*class;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-66">
+        <mxCell id="kiL3bQzwa457KuXeecQb-91" value="struct class&#x9;&#x9;*class;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-66" vertex="1">
           <mxGeometry y="286" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-90" value="const struct attribute_group **groups;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-66">
+        <mxCell id="kiL3bQzwa457KuXeecQb-90" value="const struct attribute_group **groups;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-66" vertex="1">
           <mxGeometry y="312" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-93" value="struct device_private" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kiL3bQzwa457KuXeecQb-93" value="struct device_private" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="790" y="140" width="310" height="234" as="geometry">
             <mxRectangle x="280" y="610" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-94" value="struct klist klist_children;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-93">
+        <mxCell id="kiL3bQzwa457KuXeecQb-94" value="struct klist klist_children;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-93" vertex="1">
           <mxGeometry y="26" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-95" value="struct klist_node knode_parent;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-93">
+        <mxCell id="kiL3bQzwa457KuXeecQb-95" value="struct klist_node knode_parent;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-93" vertex="1">
           <mxGeometry y="52" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-96" value="struct klist_node knode_driver;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-93">
+        <mxCell id="kiL3bQzwa457KuXeecQb-96" value="struct klist_node knode_driver;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-93" vertex="1">
           <mxGeometry y="78" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-97" value="struct klist_node knode_bus;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-93">
+        <mxCell id="kiL3bQzwa457KuXeecQb-97" value="struct klist_node knode_bus;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-93" vertex="1">
           <mxGeometry y="104" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-98" value="struct klist_node knode_class;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-93">
+        <mxCell id="kiL3bQzwa457KuXeecQb-98" value="struct klist_node knode_class;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-93" vertex="1">
           <mxGeometry y="130" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-101" value="struct list_head deferred_probe;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-93">
+        <mxCell id="kiL3bQzwa457KuXeecQb-101" value="struct list_head deferred_probe;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-93" vertex="1">
           <mxGeometry y="156" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-100" value="struct device *device;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-93">
+        <mxCell id="kiL3bQzwa457KuXeecQb-100" value="struct device *device;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-93" vertex="1">
           <mxGeometry y="182" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-99" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-93">
+        <mxCell id="kiL3bQzwa457KuXeecQb-99" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-93" vertex="1">
           <mxGeometry y="208" width="310" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-70" target="kiL3bQzwa457KuXeecQb-93">
+        <mxCell id="kiL3bQzwa457KuXeecQb-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-70" target="kiL3bQzwa457KuXeecQb-93" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="740" y="-139" />
@@ -204,7 +204,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-42" target="kiL3bQzwa457KuXeecQb-97">
+        <mxCell id="kiL3bQzwa457KuXeecQb-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-42" target="kiL3bQzwa457KuXeecQb-97" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="670" y="517" />
@@ -212,7 +212,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-43" target="kiL3bQzwa457KuXeecQb-57">
+        <mxCell id="kiL3bQzwa457KuXeecQb-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-43" target="kiL3bQzwa457KuXeecQb-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="670" y="543" />
@@ -220,419 +220,419 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-105" value="struct kobject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kiL3bQzwa457KuXeecQb-105" value="struct kobject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-880" y="-740" width="330" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-106" value="const char&#x9;&#x9;*name; //目录名" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-106" value="const char&#x9;&#x9;*name; //目录名" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-107" value="struct list_head&#x9;entry;//连接下一个kobject结构" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-107" value="struct list_head&#x9;entry;//连接下一个kobject结构" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="52" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-108" value="struct kobject&#x9;&#x9;*parent;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-108" value="struct kobject&#x9;&#x9;*parent;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="78" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-114" value="struct kset&#x9;&#x9;*kset;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-114" value="struct kset&#x9;&#x9;*kset;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="104" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-113" value="struct kobj_type&#x9;*ktype;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-113" value="struct kobj_type&#x9;*ktype;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="130" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-112" value="struct kernfs_node&#x9;*sd; /* sysfs directory entry */" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-112" value="struct kernfs_node&#x9;*sd; /* sysfs directory entry */" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="156" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-111" value="struct kref&#x9;&#x9;kref;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-111" value="struct kref&#x9;&#x9;kref;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="182" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-110" value="unsigned int state_initialized:1;//表示该kobject是否初始化" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-110" value="unsigned int state_initialized:1;//表示该kobject是否初始化" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="208" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-109" value="unsigned int state_in_sysfs:1;//表示是否加入sysfs中" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-109" value="unsigned int state_in_sysfs:1;//表示是否加入sysfs中" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="234" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-119" value="unsigned int state_add_uevent_sent:1;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-119" value="unsigned int state_add_uevent_sent:1;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="260" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-118" value="unsigned int state_remove_uevent_sent:1;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-118" value="unsigned int state_remove_uevent_sent:1;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="286" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-117" value="unsigned int uevent_suppress:1;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-117" value="unsigned int uevent_suppress:1;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="312" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-157" value="每一个在内核中注册的kobject对象都对应于sysfs文件系统中的一个目录&lt;span style=&quot;color: rgb(19, 22, 26); font-family: &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;，而不是文件&lt;/span&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-105">
+        <mxCell id="kiL3bQzwa457KuXeecQb-157" value="每一个在内核中注册的kobject对象都对应于sysfs文件系统中的一个目录&lt;span style=&quot;color: rgb(19, 22, 26); font-family: &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;，而不是文件&lt;/span&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="338" width="330" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-133" value="struct kobj_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="-670" width="370" height="284" as="geometry" />
+        <mxCell id="kiL3bQzwa457KuXeecQb-133" value="struct kobj_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-130" y="-610" width="370" height="284" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-134" value="void (*release)(struct kobject *kobj);" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-133">
+        <mxCell id="kiL3bQzwa457KuXeecQb-134" value="void (*release)(struct kobject *kobj);" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-133" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-135" value="const struct sysfs_ops *sysfs_ops;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-133">
+        <mxCell id="kiL3bQzwa457KuXeecQb-135" value="const struct sysfs_ops *sysfs_ops;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-133" vertex="1">
           <mxGeometry y="52" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-136" value="struct attribute **default_attrs;&#x9;/* use default_groups instead */" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-133">
+        <mxCell id="kiL3bQzwa457KuXeecQb-136" value="struct attribute **default_attrs;&#x9;/* use default_groups instead */" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-133" vertex="1">
           <mxGeometry y="78" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-140" value="const struct attribute_group **default_groups;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-133">
+        <mxCell id="kiL3bQzwa457KuXeecQb-140" value="const struct attribute_group **default_groups;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-133" vertex="1">
           <mxGeometry y="104" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-139" value="const struct kobj_ns_type_operations *(*child_ns_type)(struct kobject *kobj);" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-133">
+        <mxCell id="kiL3bQzwa457KuXeecQb-139" value="const struct kobj_ns_type_operations *(*child_ns_type)(struct kobject *kobj);" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-133" vertex="1">
           <mxGeometry y="130" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-138" value="const void *(*namespace)(struct kobject *kobj);" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-133">
+        <mxCell id="kiL3bQzwa457KuXeecQb-138" value="const void *(*namespace)(struct kobject *kobj);" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-133" vertex="1">
           <mxGeometry y="170" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-137" value="void (*get_ownership)(struct kobject *kobj, kuid_t *uid, kgid_t *gid);" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-133">
+        <mxCell id="kiL3bQzwa457KuXeecQb-137" value="void (*get_ownership)(struct kobject *kobj, kuid_t *uid, kgid_t *gid);" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-133" vertex="1">
           <mxGeometry y="196" width="370" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-158" value="使用该kobject设备的共同属性" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-133">
+        <mxCell id="kiL3bQzwa457KuXeecQb-158" value="使用该kobject设备的共同属性" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-133" vertex="1">
           <mxGeometry y="240" width="370" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-113" target="kiL3bQzwa457KuXeecQb-133">
+        <mxCell id="kiL3bQzwa457KuXeecQb-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-113" target="kiL3bQzwa457KuXeecQb-133" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-154" value="每个kobject都需要绑定一个ktype提供对应的功能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kiL3bQzwa457KuXeecQb-141">
+        <mxCell id="kiL3bQzwa457KuXeecQb-154" value="每个kobject都需要绑定一个ktype提供对应的功能" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kiL3bQzwa457KuXeecQb-141" vertex="1" connectable="0">
           <mxGeometry x="-0.0792" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-142" value="struct attribute 属性数组" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="-370" width="280" height="78" as="geometry" />
+        <mxCell id="kiL3bQzwa457KuXeecQb-142" value="struct attribute 属性数组" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="-540" width="280" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-143" value="const char&#x9;&#x9;*name;对应某个目录下的文件的名字" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-142">
+        <mxCell id="kiL3bQzwa457KuXeecQb-143" value="const char&#x9;&#x9;*name;对应某个目录下的文件的名字" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-142" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-144" value="umode_t&#x9;&#x9;&#x9;mode;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-142">
+        <mxCell id="kiL3bQzwa457KuXeecQb-144" value="umode_t&#x9;&#x9;&#x9;mode;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-142" vertex="1">
           <mxGeometry y="52" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-136" target="kiL3bQzwa457KuXeecQb-142">
+        <mxCell id="kiL3bQzwa457KuXeecQb-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-136" target="kiL3bQzwa457KuXeecQb-142" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-156" value="sysfs中的文件属性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kiL3bQzwa457KuXeecQb-146">
+        <mxCell id="kiL3bQzwa457KuXeecQb-156" value="sysfs中的文件属性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kiL3bQzwa457KuXeecQb-146" vertex="1" connectable="0">
           <mxGeometry x="-0.3814" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-147" value="struct sysfs_ops" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="540" y="-830" width="240" height="120" as="geometry" />
+        <mxCell id="kiL3bQzwa457KuXeecQb-147" value="struct sysfs_ops" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="-680" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-148" value="ssize_t&#x9;(*show)(struct kobject *, struct attribute *, char *);" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-147">
+        <mxCell id="kiL3bQzwa457KuXeecQb-148" value="ssize_t&#x9;(*show)(struct kobject *, struct attribute *, char *);" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-147" vertex="1">
           <mxGeometry y="26" width="240" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-149" value="ssize_t&#x9;(*store)(struct kobject *, struct attribute *, const char *, size_t);" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-147">
+        <mxCell id="kiL3bQzwa457KuXeecQb-149" value="ssize_t&#x9;(*store)(struct kobject *, struct attribute *, const char *, size_t);" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-147" vertex="1">
           <mxGeometry y="70" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-135" target="kiL3bQzwa457KuXeecQb-147">
+        <mxCell id="kiL3bQzwa457KuXeecQb-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-135" target="kiL3bQzwa457KuXeecQb-147" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-155" value="提供在sysfs的操作方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kiL3bQzwa457KuXeecQb-151">
+        <mxCell id="kiL3bQzwa457KuXeecQb-155" value="提供在sysfs的操作方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kiL3bQzwa457KuXeecQb-151" vertex="1" connectable="0">
           <mxGeometry x="-0.0393" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-159" value="struct kset" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kiL3bQzwa457KuXeecQb-159" value="struct kset" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-200" y="-1140" width="370" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-160" value="struct list_head list; //连接链表" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-159">
+        <mxCell id="kiL3bQzwa457KuXeecQb-160" value="struct list_head list; //连接链表" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-159" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-161" value="spinlock_t list_lock; //链表的自旋锁" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-159">
+        <mxCell id="kiL3bQzwa457KuXeecQb-161" value="spinlock_t list_lock; //链表的自旋锁" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-159" vertex="1">
           <mxGeometry y="52" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-162" value="struct kobject kobj;&lt;br&gt;&amp;nbsp;//内嵌的kobject结构体，说明kset本身也是一个目录" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-159">
+        <mxCell id="kiL3bQzwa457KuXeecQb-162" value="struct kobject kobj;&lt;br&gt;&amp;nbsp;//内嵌的kobject结构体，说明kset本身也是一个目录" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-159" vertex="1">
           <mxGeometry y="78" width="370" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-163" value="const struct kset_uevent_ops *uevent_ops; &lt;br&gt;//热插拔事件" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-159">
+        <mxCell id="kiL3bQzwa457KuXeecQb-163" value="const struct kset_uevent_ops *uevent_ops; &lt;br&gt;//热插拔事件" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-159" vertex="1">
           <mxGeometry y="120" width="370" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-167" value="&lt;div&gt;(1)kset的主要作用是做顶层kobject的容器类&lt;/div&gt;&lt;div&gt;(2)kset的主要目的是将各个kobject（代表着各个对象）组织出目录层次架构&lt;/div&gt;&lt;div&gt;(3)可以认为kset就是为了在sysfs中弄出目录，从而让设备驱动模型中的多个对象能够有层次有逻辑性的组织在一起&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-159">
+        <mxCell id="kiL3bQzwa457KuXeecQb-167" value="&lt;div&gt;(1)kset的主要作用是做顶层kobject的容器类&lt;/div&gt;&lt;div&gt;(2)kset的主要目的是将各个kobject（代表着各个对象）组织出目录层次架构&lt;/div&gt;&lt;div&gt;(3)可以认为kset就是为了在sysfs中弄出目录，从而让设备驱动模型中的多个对象能够有层次有逻辑性的组织在一起&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-159" vertex="1">
           <mxGeometry y="162" width="370" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-114" target="kiL3bQzwa457KuXeecQb-159">
+        <mxCell id="kiL3bQzwa457KuXeecQb-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-114" target="kiL3bQzwa457KuXeecQb-159" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-165" value="该kobject对应的kset" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kiL3bQzwa457KuXeecQb-164">
+        <mxCell id="kiL3bQzwa457KuXeecQb-165" value="该kobject对应的kset" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kiL3bQzwa457KuXeecQb-164" vertex="1" connectable="0">
           <mxGeometry x="-0.0032" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-173" value="struct kset_uevent_ops" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="kiL3bQzwa457KuXeecQb-173" value="struct kset_uevent_ops" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="490" y="-1140" width="260" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-174" value="int (* const filter)(struct kset *kset, struct kobject *kobj); //决定是否向内核发送事件" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-173">
+        <mxCell id="kiL3bQzwa457KuXeecQb-174" value="int (* const filter)(struct kset *kset, struct kobject *kobj); //决定是否向内核发送事件" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-173" vertex="1">
           <mxGeometry y="26" width="260" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-175" value="const char *(* const name)(struct kset *kset, struct kobject *kobj); //得到子程序的名字" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-173">
+        <mxCell id="kiL3bQzwa457KuXeecQb-175" value="const char *(* const name)(struct kset *kset, struct kobject *kobj); //得到子程序的名字" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-173" vertex="1">
           <mxGeometry y="70" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-176" value="&lt;div&gt;int (* const uevent)(struct kset *kset, struct kobject *kobj,&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;struct kobj_uevent_env *env);&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="kiL3bQzwa457KuXeecQb-173">
+        <mxCell id="kiL3bQzwa457KuXeecQb-176" value="&lt;div&gt;int (* const uevent)(struct kset *kset, struct kobject *kobj,&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;struct kobj_uevent_env *env);&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-173" vertex="1">
           <mxGeometry y="110" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-163" target="kiL3bQzwa457KuXeecQb-173">
+        <mxCell id="kiL3bQzwa457KuXeecQb-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.009;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-163" target="kiL3bQzwa457KuXeecQb-173" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-178" value="当驱动程序将kobject注册到设备驱动模型是，&lt;br&gt;会产生热插拔事件，kobject会根据kset找到&lt;br&gt;所属的kset结构体，执行该结构体中包含的热插拔函数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kiL3bQzwa457KuXeecQb-177">
+        <mxCell id="kiL3bQzwa457KuXeecQb-178" value="当驱动程序将kobject注册到设备驱动模型是，&lt;br&gt;会产生热插拔事件，kobject会根据kset找到&lt;br&gt;所属的kset结构体，执行该结构体中包含的热插拔函数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kiL3bQzwa457KuXeecQb-177" vertex="1" connectable="0">
           <mxGeometry x="-0.0508" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;horizontal=1;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-160" target="kiL3bQzwa457KuXeecQb-107">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;horizontal=1;startArrow=classic;startFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-160" target="kiL3bQzwa457KuXeecQb-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-1" value="1...n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22qyPCXM8pcUtk6GUyfJ-0">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-1" value="1...n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="22qyPCXM8pcUtk6GUyfJ-0" vertex="1" connectable="0">
           <mxGeometry x="-0.9421" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-3" value="f负责将该kset对应的所有kobject进行管理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22qyPCXM8pcUtk6GUyfJ-0">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-3" value="负责将该kset对应的所有kobject进行管理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="22qyPCXM8pcUtk6GUyfJ-0" vertex="1" connectable="0">
           <mxGeometry x="-0.1242" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.003;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="22qyPCXM8pcUtk6GUyfJ-4" target="22qyPCXM8pcUtk6GUyfJ-11">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.003;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="22qyPCXM8pcUtk6GUyfJ-4" target="22qyPCXM8pcUtk6GUyfJ-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-4" value="struct attribute_group" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-4" value="struct attribute_group" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-60" y="124" width="250" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-5" value="const char&#x9;&#x9;*name;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-4">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-5" value="const char&#x9;&#x9;*name;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="22qyPCXM8pcUtk6GUyfJ-4" vertex="1">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-6" value="umode_t&#x9;&#x9;&#x9;(*is_visible)(struct kobject *, struct attribute *, int);" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-4">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-6" value="umode_t&#x9;&#x9;&#x9;(*is_visible)(struct kobject *, struct attribute *, int);" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="22qyPCXM8pcUtk6GUyfJ-4" vertex="1">
           <mxGeometry y="52" width="250" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-7" value="umode_t&#x9;&#x9;&#x9;(*is_bin_visible)(struct kobject *, struct bin_attribute *, int);" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-4">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-7" value="umode_t&#x9;&#x9;&#x9;(*is_bin_visible)(struct kobject *, struct bin_attribute *, int);" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="22qyPCXM8pcUtk6GUyfJ-4" vertex="1">
           <mxGeometry y="90" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-9" value="struct attribute&#x9;**attrs;&lt;br&gt;&amp;nbsp;//总线属性，属性数组" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-4">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-9" value="struct attribute&#x9;**attrs;&lt;br&gt;&amp;nbsp;//总线属性，属性数组" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="22qyPCXM8pcUtk6GUyfJ-4" vertex="1">
           <mxGeometry y="130" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-8" value="struct bin_attribute&#x9;**bin_attrs;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-4">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-8" value="struct bin_attribute&#x9;**bin_attrs;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="22qyPCXM8pcUtk6GUyfJ-4" vertex="1">
           <mxGeometry y="170" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-33" target="22qyPCXM8pcUtk6GUyfJ-4">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-33" target="22qyPCXM8pcUtk6GUyfJ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.997;entryY=0.095;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="22qyPCXM8pcUtk6GUyfJ-11" target="22qyPCXM8pcUtk6GUyfJ-18">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.997;entryY=0.095;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="22qyPCXM8pcUtk6GUyfJ-11" target="22qyPCXM8pcUtk6GUyfJ-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-23" value="container_of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22qyPCXM8pcUtk6GUyfJ-22">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-23" value="container_of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="22qyPCXM8pcUtk6GUyfJ-22" vertex="1" connectable="0">
           <mxGeometry x="-0.1845" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1.001;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="22qyPCXM8pcUtk6GUyfJ-11" target="22qyPCXM8pcUtk6GUyfJ-25">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1.001;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="22qyPCXM8pcUtk6GUyfJ-11" target="22qyPCXM8pcUtk6GUyfJ-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-30" value="container_of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22qyPCXM8pcUtk6GUyfJ-29">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-30" value="container_of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="22qyPCXM8pcUtk6GUyfJ-29" vertex="1" connectable="0">
           <mxGeometry x="0.4648" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-11" value="struct attribute" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-11" value="struct attribute" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="310" y="260" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-12" value="const char&#x9;&#x9;*name;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-11">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-12" value="const char&#x9;&#x9;*name;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="22qyPCXM8pcUtk6GUyfJ-11" vertex="1">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-13" value="umode_t&#x9;&#x9;&#x9;mode;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-11">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-13" value="umode_t&#x9;&#x9;&#x9;mode;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" parent="22qyPCXM8pcUtk6GUyfJ-11" vertex="1">
           <mxGeometry y="52" width="250" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-18" value="struct bus_attribute" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-18" value="struct bus_attribute" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="270" y="-50" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-19" value="struct attribute&#x9;attr;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-18">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-19" value="struct attribute&#x9;attr;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="22qyPCXM8pcUtk6GUyfJ-18" vertex="1">
           <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-20" value="ssize_t (*show)(struct bus_type *bus, char *buf);" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-18">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-20" value="ssize_t (*show)(struct bus_type *bus, char *buf);" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="22qyPCXM8pcUtk6GUyfJ-18" vertex="1">
           <mxGeometry y="52" width="250" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-21" value="ssize_t (*store)(struct bus_type *bus, const char *buf, size_t count);" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-18">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-21" value="ssize_t (*store)(struct bus_type *bus, const char *buf, size_t count);" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="22qyPCXM8pcUtk6GUyfJ-18" vertex="1">
           <mxGeometry y="90" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-90" target="22qyPCXM8pcUtk6GUyfJ-4">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kiL3bQzwa457KuXeecQb-90" target="22qyPCXM8pcUtk6GUyfJ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-25" value="struct device_attribute" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-25" value="struct device_attribute" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="280" y="-230" width="290" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-26" value="struct attribute&#x9;attr;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-25">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-26" value="struct attribute&#x9;attr;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="22qyPCXM8pcUtk6GUyfJ-25" vertex="1">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-27" value="&lt;div&gt;ssize_t (*show)(struct device *dev, struct device_attribute *attr,&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;char *buf);&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-25">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-27" value="&lt;div&gt;ssize_t (*show)(struct device *dev, struct device_attribute *attr,&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;char *buf);&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="22qyPCXM8pcUtk6GUyfJ-25" vertex="1">
           <mxGeometry y="52" width="290" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="22qyPCXM8pcUtk6GUyfJ-28" value="&lt;div&gt;ssize_t (*store)(struct device *dev, struct device_attribute *attr,&lt;span style=&quot;background-color: initial;&quot;&gt;const char *buf, size_t count);&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="22qyPCXM8pcUtk6GUyfJ-25">
+        <mxCell id="22qyPCXM8pcUtk6GUyfJ-28" value="&lt;div&gt;ssize_t (*store)(struct device *dev, struct device_attribute *attr,&lt;span style=&quot;background-color: initial;&quot;&gt;const char *buf, size_t count);&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="22qyPCXM8pcUtk6GUyfJ-25" vertex="1">
           <mxGeometry y="90" width="290" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="RwOpha3NxwTmsPhhb2bN" name="kset与kobject关系">
-    <mxGraphModel dx="2193" dy="3057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2739" dy="3403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sH2g9mcKYZXtRhHzR0sY-1" value="struct kset" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sH2g9mcKYZXtRhHzR0sY-1" value="struct kset" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="-1140" width="370" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="sH2g9mcKYZXtRhHzR0sY-2" value="struct list_head list; //连接链表" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sH2g9mcKYZXtRhHzR0sY-1">
+        <mxCell id="sH2g9mcKYZXtRhHzR0sY-2" value="struct list_head list; //连接链表" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sH2g9mcKYZXtRhHzR0sY-1" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sH2g9mcKYZXtRhHzR0sY-3" value="spinlock_t list_lock; //链表的自旋锁" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sH2g9mcKYZXtRhHzR0sY-1">
+        <mxCell id="sH2g9mcKYZXtRhHzR0sY-3" value="spinlock_t list_lock; //链表的自旋锁" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sH2g9mcKYZXtRhHzR0sY-1" vertex="1">
           <mxGeometry y="52" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="sH2g9mcKYZXtRhHzR0sY-4" value="struct kobject kobj;&lt;br&gt;&amp;nbsp;//内嵌的kobject结构体，说明kset本身也是一个目录" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sH2g9mcKYZXtRhHzR0sY-1">
+        <mxCell id="sH2g9mcKYZXtRhHzR0sY-4" value="struct kobject kobj;&lt;br&gt;&amp;nbsp;//内嵌的kobject结构体，说明kset本身也是一个目录" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sH2g9mcKYZXtRhHzR0sY-1" vertex="1">
           <mxGeometry y="78" width="370" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="sH2g9mcKYZXtRhHzR0sY-5" value="const struct kset_uevent_ops *uevent_ops; &lt;br&gt;//热插拔事件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sH2g9mcKYZXtRhHzR0sY-1">
+        <mxCell id="sH2g9mcKYZXtRhHzR0sY-5" value="const struct kset_uevent_ops *uevent_ops; &lt;br&gt;//热插拔事件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sH2g9mcKYZXtRhHzR0sY-1" vertex="1">
           <mxGeometry y="120" width="370" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="sH2g9mcKYZXtRhHzR0sY-6" value="&lt;div&gt;(1)kset的主要作用是做顶层kobject的容器类&lt;/div&gt;&lt;div&gt;(2)kset的主要目的是将各个kobject（代表着各个对象）组织出目录层次架构&lt;/div&gt;&lt;div&gt;(3)可以认为kset就是为了在sysfs中弄出目录，从而让设备驱动模型中的多个对象能够有层次有逻辑性的组织在一起&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="sH2g9mcKYZXtRhHzR0sY-1">
+        <mxCell id="sH2g9mcKYZXtRhHzR0sY-6" value="&lt;div&gt;(1)kset的主要作用是做顶层kobject的容器类&lt;/div&gt;&lt;div&gt;(2)kset的主要目的是将各个kobject（代表着各个对象）组织出目录层次架构&lt;/div&gt;&lt;div&gt;(3)可以认为kset就是为了在sysfs中弄出目录，从而让设备驱动模型中的多个对象能够有层次有逻辑性的组织在一起&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="sH2g9mcKYZXtRhHzR0sY-1" vertex="1">
           <mxGeometry y="162" width="370" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-1" value="struct kobject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-1" value="struct kobject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-710" y="-774" width="330" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-2" value="const char&#x9;&#x9;*name; //目录名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-2" value="const char&#x9;&#x9;*name; //目录名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-3" value="struct list_head&#x9;entry;//连接下一个kobject结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-3" value="struct list_head&#x9;entry;//连接下一个kobject结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="52" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-4" value="struct kobject&#x9;&#x9;*parent;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-4" value="struct kobject&#x9;&#x9;*parent;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="78" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-5" value="struct kset&#x9;&#x9;*kset;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-5" value="struct kset&#x9;&#x9;*kset;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="104" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-6" value="struct kobj_type&#x9;*ktype;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-6" value="struct kobj_type&#x9;*ktype;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="130" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-7" value="struct kernfs_node&#x9;*sd; /* sysfs directory entry */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-7" value="struct kernfs_node&#x9;*sd; /* sysfs directory entry */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="156" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-8" value="struct kref&#x9;&#x9;kref;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-8" value="struct kref&#x9;&#x9;kref;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="182" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-9" value="unsigned int state_initialized:1;//表示该kobject是否初始化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-9" value="unsigned int state_initialized:1;//表示该kobject是否初始化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="208" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-10" value="unsigned int state_in_sysfs:1;//表示是否加入sysfs中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-10" value="unsigned int state_in_sysfs:1;//表示是否加入sysfs中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="234" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-11" value="unsigned int state_add_uevent_sent:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-11" value="unsigned int state_add_uevent_sent:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="260" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-12" value="unsigned int state_remove_uevent_sent:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-12" value="unsigned int state_remove_uevent_sent:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="286" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-13" value="unsigned int uevent_suppress:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-13" value="unsigned int uevent_suppress:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="312" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-14" value="每一个在内核中注册的kobject对象都对应于sysfs文件系统中的一个目录&lt;span style=&quot;color: rgb(19, 22, 26); font-family: &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;，而不是文件&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-14" value="每一个在内核中注册的kobject对象都对应于sysfs文件系统中的一个目录&lt;span style=&quot;color: rgb(19, 22, 26); font-family: &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;，而不是文件&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-1" vertex="1">
           <mxGeometry y="338" width="330" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-15" value="struct kobject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-15" value="struct kobject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-250" y="-774" width="330" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-16" value="const char&#x9;&#x9;*name; //目录名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-16" value="const char&#x9;&#x9;*name; //目录名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-17" value="struct list_head&#x9;entry;//连接下一个kobject结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-17" value="struct list_head&#x9;entry;//连接下一个kobject结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="52" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-18" value="struct kobject&#x9;&#x9;*parent;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-18" value="struct kobject&#x9;&#x9;*parent;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="78" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-19" value="struct kset&#x9;&#x9;*kset;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-19" value="struct kset&#x9;&#x9;*kset;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="104" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-20" value="struct kobj_type&#x9;*ktype;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-20" value="struct kobj_type&#x9;*ktype;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="130" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-21" value="struct kernfs_node&#x9;*sd; /* sysfs directory entry */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-21" value="struct kernfs_node&#x9;*sd; /* sysfs directory entry */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="156" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-22" value="struct kref&#x9;&#x9;kref;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-22" value="struct kref&#x9;&#x9;kref;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="182" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-23" value="unsigned int state_initialized:1;//表示该kobject是否初始化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-23" value="unsigned int state_initialized:1;//表示该kobject是否初始化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="208" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-24" value="unsigned int state_in_sysfs:1;//表示是否加入sysfs中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-24" value="unsigned int state_in_sysfs:1;//表示是否加入sysfs中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="234" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-25" value="unsigned int state_add_uevent_sent:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-25" value="unsigned int state_add_uevent_sent:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="260" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-26" value="unsigned int state_remove_uevent_sent:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-26" value="unsigned int state_remove_uevent_sent:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="286" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-27" value="unsigned int uevent_suppress:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-27" value="unsigned int uevent_suppress:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="312" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-28" value="每一个在内核中注册的kobject对象都对应于sysfs文件系统中的一个目录&lt;span style=&quot;color: rgb(19, 22, 26); font-family: &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;，而不是文件&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-15">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-28" value="每一个在内核中注册的kobject对象都对应于sysfs文件系统中的一个目录&lt;span style=&quot;color: rgb(19, 22, 26); font-family: &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;，而不是文件&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-15" vertex="1">
           <mxGeometry y="338" width="330" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-29" value="struct kobject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-29" value="struct kobject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="-774" width="330" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-30" value="const char&#x9;&#x9;*name; //目录名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-30" value="const char&#x9;&#x9;*name; //目录名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-31" value="struct list_head&#x9;entry;//连接下一个kobject结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-31" value="struct list_head&#x9;entry;//连接下一个kobject结构" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="52" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-32" value="struct kobject&#x9;&#x9;*parent;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-32" value="struct kobject&#x9;&#x9;*parent;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="78" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-33" value="struct kset&#x9;&#x9;*kset;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-33" value="struct kset&#x9;&#x9;*kset;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="104" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-34" value="struct kobj_type&#x9;*ktype;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-34" value="struct kobj_type&#x9;*ktype;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="130" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-35" value="struct kernfs_node&#x9;*sd; /* sysfs directory entry */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-35" value="struct kernfs_node&#x9;*sd; /* sysfs directory entry */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="156" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-36" value="struct kref&#x9;&#x9;kref;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-36" value="struct kref&#x9;&#x9;kref;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="182" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-37" value="unsigned int state_initialized:1;//表示该kobject是否初始化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-37" value="unsigned int state_initialized:1;//表示该kobject是否初始化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="208" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-38" value="unsigned int state_in_sysfs:1;//表示是否加入sysfs中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-38" value="unsigned int state_in_sysfs:1;//表示是否加入sysfs中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="234" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-39" value="unsigned int state_add_uevent_sent:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-39" value="unsigned int state_add_uevent_sent:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="260" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-40" value="unsigned int state_remove_uevent_sent:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-40" value="unsigned int state_remove_uevent_sent:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="286" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-41" value="unsigned int uevent_suppress:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-41" value="unsigned int uevent_suppress:1;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="312" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-42" value="每一个在内核中注册的kobject对象都对应于sysfs文件系统中的一个目录&lt;span style=&quot;color: rgb(19, 22, 26); font-family: &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;，而不是文件&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Zko27TaoFgRE08l3-TM6-29">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-42" value="每一个在内核中注册的kobject对象都对应于sysfs文件系统中的一个目录&lt;span style=&quot;color: rgb(19, 22, 26); font-family: &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;，而不是文件&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Zko27TaoFgRE08l3-TM6-29" vertex="1">
           <mxGeometry y="338" width="330" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sH2g9mcKYZXtRhHzR0sY-2" target="Zko27TaoFgRE08l3-TM6-3">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="sH2g9mcKYZXtRhHzR0sY-2" target="Zko27TaoFgRE08l3-TM6-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zko27TaoFgRE08l3-TM6-3" target="Zko27TaoFgRE08l3-TM6-17">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Zko27TaoFgRE08l3-TM6-3" target="Zko27TaoFgRE08l3-TM6-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zko27TaoFgRE08l3-TM6-17" target="Zko27TaoFgRE08l3-TM6-31">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Zko27TaoFgRE08l3-TM6-17" target="Zko27TaoFgRE08l3-TM6-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-48" value="..." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zko27TaoFgRE08l3-TM6-46">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-48" value="..." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Zko27TaoFgRE08l3-TM6-46" vertex="1" connectable="0">
           <mxGeometry x="0.0267" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zko27TaoFgRE08l3-TM6-31" target="sH2g9mcKYZXtRhHzR0sY-2">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Zko27TaoFgRE08l3-TM6-31" target="sH2g9mcKYZXtRhHzR0sY-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="650" y="-709" />
@@ -640,7 +640,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zko27TaoFgRE08l3-TM6-2" target="sH2g9mcKYZXtRhHzR0sY-3">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Zko27TaoFgRE08l3-TM6-2" target="sH2g9mcKYZXtRhHzR0sY-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-320" y="-735" />
@@ -648,7 +648,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zko27TaoFgRE08l3-TM6-16" target="sH2g9mcKYZXtRhHzR0sY-3">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Zko27TaoFgRE08l3-TM6-16" target="sH2g9mcKYZXtRhHzR0sY-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="110" y="-735" />
@@ -658,7 +658,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zko27TaoFgRE08l3-TM6-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zko27TaoFgRE08l3-TM6-30" target="sH2g9mcKYZXtRhHzR0sY-3">
+        <mxCell id="Zko27TaoFgRE08l3-TM6-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Zko27TaoFgRE08l3-TM6-30" target="sH2g9mcKYZXtRhHzR0sY-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="580" y="-735" />
@@ -668,144 +668,144 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-1" value="struct kobj_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-1" value="struct kobj_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-750" y="-310" width="370" height="284" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-2" value="void (*release)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-2" value="void (*release)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-1" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-3" value="const struct sysfs_ops *sysfs_ops;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-3" value="const struct sysfs_ops *sysfs_ops;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-1" vertex="1">
           <mxGeometry y="52" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-4" value="struct attribute **default_attrs;&#x9;/* use default_groups instead */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-4" value="struct attribute **default_attrs;&#x9;/* use default_groups instead */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-1" vertex="1">
           <mxGeometry y="78" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-5" value="const struct attribute_group **default_groups;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-5" value="const struct attribute_group **default_groups;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-1" vertex="1">
           <mxGeometry y="104" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-6" value="const struct kobj_ns_type_operations *(*child_ns_type)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-6" value="const struct kobj_ns_type_operations *(*child_ns_type)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-1" vertex="1">
           <mxGeometry y="130" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-7" value="const void *(*namespace)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-7" value="const void *(*namespace)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-1" vertex="1">
           <mxGeometry y="170" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-8" value="void (*get_ownership)(struct kobject *kobj, kuid_t *uid, kgid_t *gid);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-8" value="void (*get_ownership)(struct kobject *kobj, kuid_t *uid, kgid_t *gid);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-1" vertex="1">
           <mxGeometry y="196" width="370" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-9" value="使用该kobject设备的共同属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-9" value="使用该kobject设备的共同属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-1" vertex="1">
           <mxGeometry y="240" width="370" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-10" value="struct kobj_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-10" value="struct kobj_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-270" y="-320" width="370" height="284" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-11" value="void (*release)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-10">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-11" value="void (*release)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-10" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-12" value="const struct sysfs_ops *sysfs_ops;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-10">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-12" value="const struct sysfs_ops *sysfs_ops;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-10" vertex="1">
           <mxGeometry y="52" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-13" value="struct attribute **default_attrs;&#x9;/* use default_groups instead */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-10">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-13" value="struct attribute **default_attrs;&#x9;/* use default_groups instead */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-10" vertex="1">
           <mxGeometry y="78" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-14" value="const struct attribute_group **default_groups;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-10">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-14" value="const struct attribute_group **default_groups;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-10" vertex="1">
           <mxGeometry y="104" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-15" value="const struct kobj_ns_type_operations *(*child_ns_type)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-10">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-15" value="const struct kobj_ns_type_operations *(*child_ns_type)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-10" vertex="1">
           <mxGeometry y="130" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-16" value="const void *(*namespace)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-10">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-16" value="const void *(*namespace)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-10" vertex="1">
           <mxGeometry y="170" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-17" value="void (*get_ownership)(struct kobject *kobj, kuid_t *uid, kgid_t *gid);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-10">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-17" value="void (*get_ownership)(struct kobject *kobj, kuid_t *uid, kgid_t *gid);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-10" vertex="1">
           <mxGeometry y="196" width="370" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-18" value="使用该kobject设备的共同属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-10">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-18" value="使用该kobject设备的共同属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-10" vertex="1">
           <mxGeometry y="240" width="370" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-19" value="struct kobj_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-19" value="struct kobj_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="-320" width="370" height="284" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-20" value="void (*release)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-19">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-20" value="void (*release)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-19" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-21" value="const struct sysfs_ops *sysfs_ops;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-19">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-21" value="const struct sysfs_ops *sysfs_ops;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-19" vertex="1">
           <mxGeometry y="52" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-22" value="struct attribute **default_attrs;&#x9;/* use default_groups instead */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-19">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-22" value="struct attribute **default_attrs;&#x9;/* use default_groups instead */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-19" vertex="1">
           <mxGeometry y="78" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-23" value="const struct attribute_group **default_groups;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-19">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-23" value="const struct attribute_group **default_groups;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-19" vertex="1">
           <mxGeometry y="104" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-24" value="const struct kobj_ns_type_operations *(*child_ns_type)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-19">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-24" value="const struct kobj_ns_type_operations *(*child_ns_type)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-19" vertex="1">
           <mxGeometry y="130" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-25" value="const void *(*namespace)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-19">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-25" value="const void *(*namespace)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-19" vertex="1">
           <mxGeometry y="170" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-26" value="void (*get_ownership)(struct kobject *kobj, kuid_t *uid, kgid_t *gid);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-19">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-26" value="void (*get_ownership)(struct kobject *kobj, kuid_t *uid, kgid_t *gid);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-19" vertex="1">
           <mxGeometry y="196" width="370" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-27" value="使用该kobject设备的共同属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-19">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-27" value="使用该kobject设备的共同属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-19" vertex="1">
           <mxGeometry y="240" width="370" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zko27TaoFgRE08l3-TM6-34" target="P2UjbqLTI7uKENNVDMD3-19">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Zko27TaoFgRE08l3-TM6-34" target="P2UjbqLTI7uKENNVDMD3-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zko27TaoFgRE08l3-TM6-20" target="P2UjbqLTI7uKENNVDMD3-10">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Zko27TaoFgRE08l3-TM6-20" target="P2UjbqLTI7uKENNVDMD3-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zko27TaoFgRE08l3-TM6-6" target="P2UjbqLTI7uKENNVDMD3-1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Zko27TaoFgRE08l3-TM6-6" target="P2UjbqLTI7uKENNVDMD3-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-32" value="父类" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-32" value="父类" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="40" y="-1180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-33" value="子类1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-33" value="子类1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-575" y="-810" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-34" value="子类2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-34" value="子类2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="-115" y="-810" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-35" value="子类3" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-35" value="子类3" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="383" y="-810" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-36" value="struct kobj_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-36" value="struct kobj_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1340" y="-1094" width="370" height="284" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-37" value="void (*release)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-36">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-37" value="void (*release)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-36" vertex="1">
           <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-38" value="const struct sysfs_ops *sysfs_ops;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-36">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-38" value="const struct sysfs_ops *sysfs_ops;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-36" vertex="1">
           <mxGeometry y="52" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-39" value="struct attribute **default_attrs;&#x9;/* use default_groups instead */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-36">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-39" value="struct attribute **default_attrs;&#x9;/* use default_groups instead */" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-36" vertex="1">
           <mxGeometry y="78" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-40" value="const struct attribute_group **default_groups;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-36">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-40" value="const struct attribute_group **default_groups;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-36" vertex="1">
           <mxGeometry y="104" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-41" value="const struct kobj_ns_type_operations *(*child_ns_type)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-36">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-41" value="const struct kobj_ns_type_operations *(*child_ns_type)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-36" vertex="1">
           <mxGeometry y="130" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-42" value="const void *(*namespace)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-36">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-42" value="const void *(*namespace)(struct kobject *kobj);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-36" vertex="1">
           <mxGeometry y="170" width="370" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-43" value="void (*get_ownership)(struct kobject *kobj, kuid_t *uid, kgid_t *gid);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-36">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-43" value="void (*get_ownership)(struct kobject *kobj, kuid_t *uid, kgid_t *gid);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-36" vertex="1">
           <mxGeometry y="196" width="370" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-44" value="使用该kobject设备的共同属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="P2UjbqLTI7uKENNVDMD3-36">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-44" value="使用该kobject设备的共同属性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="P2UjbqLTI7uKENNVDMD3-36" vertex="1">
           <mxGeometry y="240" width="370" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sH2g9mcKYZXtRhHzR0sY-4" target="P2UjbqLTI7uKENNVDMD3-36">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sH2g9mcKYZXtRhHzR0sY-4" target="P2UjbqLTI7uKENNVDMD3-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-46" value="该kobject设备的共同属性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="P2UjbqLTI7uKENNVDMD3-45">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-46" value="该kobject设备的共同属性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="P2UjbqLTI7uKENNVDMD3-45" vertex="1" connectable="0">
           <mxGeometry x="0.6495" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zko27TaoFgRE08l3-TM6-5" target="sH2g9mcKYZXtRhHzR0sY-1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Zko27TaoFgRE08l3-TM6-5" target="sH2g9mcKYZXtRhHzR0sY-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-800" y="-657" />
@@ -813,10 +813,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zko27TaoFgRE08l3-TM6-19" target="sH2g9mcKYZXtRhHzR0sY-1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Zko27TaoFgRE08l3-TM6-19" target="sH2g9mcKYZXtRhHzR0sY-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P2UjbqLTI7uKENNVDMD3-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zko27TaoFgRE08l3-TM6-33" target="sH2g9mcKYZXtRhHzR0sY-1">
+        <mxCell id="P2UjbqLTI7uKENNVDMD3-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Zko27TaoFgRE08l3-TM6-33" target="sH2g9mcKYZXtRhHzR0sY-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-270" y="-657" />
