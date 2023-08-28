@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T09:58:26.018Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="pUDPJvdtAmrLuaAz-0HU" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-28T01:13:16.713Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="RIo7A_HKzXv-XehSOVl6" version="21.6.9" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="基本关系">
-    <mxGraphModel dx="2958" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4841" dy="2847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -259,7 +259,7 @@
         <mxCell id="kiL3bQzwa457KuXeecQb-117" value="unsigned int uevent_suppress:1;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="312" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="kiL3bQzwa457KuXeecQb-157" value="每一个在内核中注册的kobject对象都对应于sysfs文件系统中的一个目录&lt;span style=&quot;color: rgb(19, 22, 26); font-family: &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;，而不是文件&lt;/span&gt;" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
+        <mxCell id="kiL3bQzwa457KuXeecQb-157" value="每一个在内核中注册的kobject对象都对应于sysfs文件系统中的一个目录，而不是一个文件" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="kiL3bQzwa457KuXeecQb-105" vertex="1">
           <mxGeometry y="338" width="330" height="42" as="geometry" />
         </mxCell>
         <mxCell id="kiL3bQzwa457KuXeecQb-133" value="struct kobj_type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
