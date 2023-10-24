@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T12:36:10.776Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="2ed1OYoo_vvkRayQlCiN" version="21.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-24T12:47:33.090Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="4BvFYdR_DGE4jft9xF62" version="21.7.5" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="基本关系">
     <mxGraphModel dx="5751" dy="3452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -828,7 +828,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3IWsm_eUWurnwAf0p9VR" name="串口">
-    <mxGraphModel dx="7720" dy="4168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5822" dy="3199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
