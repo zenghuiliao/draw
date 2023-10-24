@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-24T01:17:00.261Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="tGwdGdtZu55DneuvOyJk" version="21.7.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-24T01:36:11.560Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="FgwXThdo8LHpTUiSfuBE" version="21.7.5" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="基本关系">
     <mxGraphModel dx="5751" dy="3452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -828,7 +828,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3IWsm_eUWurnwAf0p9VR" name="串口">
-    <mxGraphModel dx="5928" dy="3198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6341" dy="3396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -904,8 +904,11 @@
         <mxCell id="E8i9Tpfuc0gEFQALajAs-24" value="struct list_head tty_drivers;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="E8i9Tpfuc0gEFQALajAs-1">
           <mxGeometry y="572" width="230" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="VV2aAzA6IertB1ED7CuC-287" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.65;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E8i9Tpfuc0gEFQALajAs-35" target="VV2aAzA6IertB1ED7CuC-283">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="E8i9Tpfuc0gEFQALajAs-35" value="struct uart_port" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-413" y="-1070" width="330" height="520" as="geometry" />
+          <mxGeometry x="-170" y="-1200" width="330" height="520" as="geometry" />
         </mxCell>
         <mxCell id="E8i9Tpfuc0gEFQALajAs-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="E8i9Tpfuc0gEFQALajAs-35">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
@@ -1876,7 +1879,7 @@
         <mxCell id="VV2aAzA6IertB1ED7CuC-184" value="将所有的struct tty_driver链在一起" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VV2aAzA6IertB1ED7CuC-200">
           <mxGeometry width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VV2aAzA6IertB1ED7CuC-201" value="struct uart_port *port" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="VV2aAzA6IertB1ED7CuC-201" value="struct uart_port port" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-560" y="-1630" width="330" height="382" as="geometry" />
         </mxCell>
         <mxCell id="VV2aAzA6IertB1ED7CuC-202" value="type&#x9;= PORT_UNKNOWN;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VV2aAzA6IertB1ED7CuC-201">
@@ -1959,7 +1962,7 @@
         <mxCell id="VV2aAzA6IertB1ED7CuC-233" value="保存直接从设备树中解析出来的信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VV2aAzA6IertB1ED7CuC-234">
           <mxGeometry x="20" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VV2aAzA6IertB1ED7CuC-236" value="struct cdns_uart *cdns_uart_data;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+        <mxCell id="VV2aAzA6IertB1ED7CuC-236" value="struct cdns_uart&amp;nbsp; cdns_uart_data;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="-1100" y="-1491" width="260" height="234" as="geometry" />
         </mxCell>
         <mxCell id="VV2aAzA6IertB1ED7CuC-244" value="bool cts_override;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="VV2aAzA6IertB1ED7CuC-236">
